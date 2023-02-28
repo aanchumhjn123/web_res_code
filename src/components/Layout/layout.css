@@ -1,0 +1,12 @@
+
+@media(max-width: 1000px){
+
+    div.overflow{
+    
+        overflow: auto;
+        white-space: nowrap;
+        display: inline-block;
+    
+    }
+}
+

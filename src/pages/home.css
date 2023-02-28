@@ -1,0 +1,178 @@
+body{
+ background-color: rgba(0, 0, 0, 0.942);
+}
+
+.cardrow{
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.cardrow1{
+    display: flex;
+    margin-top: 10px;
+    /* justify-content: space-between; */
+    justify-content: center;
+  }
+
+.card_width{
+    width: 50%;
+
+
+}
+
+.section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* padding-left: 80px; */
+    border-bottom: 1px solid;
+}
+
+.section_hero{
+    margin-top: 150px;
+
+}
+
+.card-img-top{
+width: 80%;
+}
+
+.head-title span{
+    
+    margin-right: 80px; 
+}
+
+.head-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.card-title{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.price{
+    color: white;
+    
+}
+
+.head-title2 h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+
+}
+
+.column {
+    float:left;
+    width: 16%;
+   
+  }
+  
+  
+  .column img {
+    opacity: 0.8;
+    cursor: pointer;
+    width: 70%;
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+
+  .section1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 80px;
+    border-bottom: 1px solid rgb(38, 36, 36);
+    
+}
+
+.section2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+     padding-left: 100px;
+
+}
+
+.head-title3 h1{
+    
+    color: white;
+    margin-bottom: 50px;
+
+}
+
+.card-img-top1{
+
+    width:80%;
+    }
+
+    .card_width1{
+        width: 80%;
+    }
+    .counter{
+        color: white;
+         margin-top: 15px; 
+    }
+
+    h6 span{
+        background-color: orangered;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-radius: 4px;
+        margin: 3px;
+
+    }
+
+ @media(max-width: 883px){
+
+    .section_hero{
+        margin-top: 100px;
+    }
+    .cardrow{
+        display:block;
+          margin-top: 40px;
+          justify-content: space-between;
+          justify-content: center;
+          margin-left: 100px;
+          
+        }
+
+        .counter{
+            display:block;
+            color: white;
+            font-size: small; 
+        }
+
+        .timer{
+            font-size: small;
+
+        }
+
+        .section2{
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .head-title3 h1{
+           color: white;
+           margin-bottom: 50px;
+        
+       }
+       .head-title h1{
+        color: white;
+        margin-bottom: 20px;
+        margin-left: 100px;
+     
+    }
+    .card_width{
+        width: 100%;
+    }
+    div.column{
+    width: 200px;
+    }
+}
